@@ -40,17 +40,17 @@ export function SocialProofBar() {
             <Star key={i} className="w-4 h-4 fill-amber-400" />
           ))}
           <span className="text-xs font-bold text-zinc-300 ml-1.5">
-            4.9 / 5.0 (Mais de 140 empresários atendidos)
+            4.9 / 5.0 (Mais de 140 sites e landing pages entregues)
           </span>
         </div>
 
         {/* The Exact High-Converting Authority Statement from Reference */}
         <p className="text-base sm:text-xl md:text-2xl font-semibold text-zinc-200 leading-snug max-w-3xl mx-auto">
-          É uma realidade comprovada por dezenas de negócios como o seu que viram seus{" "}
+          É uma realidade comprovada por mais de 140 empresas que transformaram sua presença digital com um{" "}
           <span className="text-coral-gradient font-bold">
-            faturamentos dispararem
+            site profissional de alto impacto
           </span>{" "}
-          e suas preocupações para atrair novos clientes desaparecerem.
+          e viram seus pedidos de orçamento pelo WhatsApp dispararem.
         </p>
       </div>
     </section>

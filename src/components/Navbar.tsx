@@ -37,23 +37,23 @@ export function Navbar() {
           {/* Reference pill text badge */}
           <div className="hidden lg:flex items-center gap-2 pl-4 border-l border-white/10 text-xs text-zinc-400">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_#34d399]" />
-            <span>+140 empresas escalaram faturamento com esta estrutura</span>
+            <span>+140 sites profissionais entregues com alta velocidade</span>
           </div>
         </div>
 
         {/* Navigation links & Direct Action */}
         <div className="flex items-center gap-4">
           <a
-            href="#metodo"
+            href="#modelos"
             className="hidden sm:inline-block text-xs font-semibold text-zinc-300 hover:text-white transition-colors uppercase tracking-wider"
           >
-            O Método
+            Modelos de Sites
           </a>
           <a
-            href="#resultados"
+            href="#diferenciais"
             className="hidden sm:inline-block text-xs font-semibold text-zinc-300 hover:text-white transition-colors uppercase tracking-wider"
           >
-            Resultados
+            Diferenciais
           </a>
           <a
             href="#simulador"
@@ -64,12 +64,12 @@ export function Navbar() {
 
           {/* Reference CTA Pill Button */}
           <a
-            href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Vi%20a%20estrutura%20de%20funil%20da%20StudioWeb%20e%20quero%20conhecer%20a%20estrat%C3%A9gia%20para%20minha%20empresa."
+            href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Quero%20fazer%20um%20or%C3%A7amento%20para%20criar%20um%20site%20profissional%20para%20minha%20empresa."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-coral-gradient px-4 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold text-white flex items-center gap-2 cursor-pointer shadow-lg tracking-wide"
           >
-            <span>Quero Conhecer a Estratégia</span>
+            <span>Quero Meu Site Profissional</span>
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

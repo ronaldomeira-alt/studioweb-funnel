@@ -10,47 +10,47 @@ interface FeaturesBentoGridProps {
 export function FeaturesBentoGrid({ onOpenVideo }: FeaturesBentoGridProps) {
   const cards = [
     {
-      title: "Estratégia de captação ativa",
+      title: "Landing Pages de Alta Conversão",
       icon: Megaphone,
       bullets: [
-        "Técnicas e arquitetura persuasiva testadas ao longo de dezenas de projetos para atrair os clientes ideais para sua empresa.",
-        "Como filtrar curiosos e focar apenas em leads que já têm orçamento e intenção real de contratação imediata.",
-        "Identificar os canais mais rentáveis para gerar previsibilidade de caixa sem depender de milagres.",
+        "Desenhadas cirurgicamente para campanhas de Google Ads e Instagram/Meta Ads.",
+        "Arquitetura focada em conduzir o visitante direto para um clique de conversa no WhatsApp.",
+        "Entrega acelerada em 7 dias úteis, com design exclusivo e redação persuasiva inclusa.",
       ],
     },
     {
-      title: "Otimização do funil de vendas",
+      title: "Sites Institucionais de Autoridade",
       icon: Filter,
       bullets: [
-        "Como estruturar cada etapa da página para maximizar conversões desde o primeiro segundo de visualização.",
-        "Detectar e eliminar os pontos cegos onde sua empresa perdia clientes para a concorrência.",
-        "Páginas ultra-rápidas carregadas em menos de 0.5 segundo, garantindo que nenhum visitante abandone o site.",
+        "Estrutura completa com páginas de Serviços, Quem Somos, Equipe e Casos de Sucesso.",
+        "Posicionamento impecável para clínicas, escritórios de advocacia, arquitetura e indústrias.",
+        "Otimização avançada para o Google (SEO), indexação rápida e carregamento em 0.5s.",
       ],
     },
     {
-      title: "Automação inteligente 24/7",
+      title: "Catálogos & Plataformas Sob Medida",
       icon: Cpu,
       bullets: [
-        "Captação contínua de clientes qualificados mesmo enquanto você dorme ou atende seus projetos.",
-        "Integração direta com o WhatsApp da sua equipe comercial com dados do lead já preenchidos.",
-        "Uma experiência impecável que transmite autoridade instantânea e justifica cobrar tickets mais altos.",
+        "Vitrines modernas de produtos, cardápios interativos ou portfólios de alto padrão.",
+        "Painel administrativo simples para você atualizar conteúdos e fotos sem pagar mensalidades.",
+        "Código limpo em Next.js e TypeScript com hospedagem global gratuita e certificado SSL.",
       ],
     },
   ];
 
   return (
-    <section className="py-24 bg-[#08090c] relative z-10">
+    <section id="modelos" className="py-24 bg-[#08090c] relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header from reference */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="text-xs sm:text-sm font-bold uppercase tracking-widest text-[#ff3366] bg-[#ff3366]/10 px-4 py-1.5 rounded-full border border-[#ff3366]/20">
-            O QUE VOCÊ VAI DESCOBRIR NA SUA ESTRUTURA
+            O QUE DESENVOLVEMOS PARA SEU NEGÓCIO
           </span>
           <h2 className="mt-4 text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Pilares do Método de Alta Conversão
+            Estruturas Digitais Criadas Sob Medida
           </h2>
           <p className="mt-3 text-zinc-400 text-sm sm:text-base">
-            Cada detalhe da página é construído com engenharia psicológica para transformar cliques anônimos em vendas reais.
+            Não usamos modelos prontos ou sites genéricos do WordPress. Cada linha de código é feita para vender.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export function FeaturesBentoGrid({ onOpenVideo }: FeaturesBentoGridProps) {
                 </div>
 
                 <div className="mt-8 pt-4 border-t border-white/5 flex items-center text-xs font-semibold text-zinc-400 group-hover:text-white transition-colors">
-                  <span>Metodologia validada StudioWeb</span>
+                  <span>Padrão Internacional StudioWeb</span>
                   <ArrowRight className="w-3.5 h-3.5 ml-auto text-[#ff2e63]" />
                 </div>
               </div>
@@ -104,7 +104,7 @@ export function FeaturesBentoGrid({ onOpenVideo }: FeaturesBentoGridProps) {
             <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
               <Play className="w-3.5 h-3.5 fill-white text-white ml-0.5" />
             </div>
-            <span>Quero saber como funciona</span>
+            <span>Quero solicitar orçamento</span>
           </button>
         </div>
       </div>

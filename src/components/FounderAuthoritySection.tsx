@@ -32,7 +32,7 @@ export function FounderAuthoritySection() {
 
             <div>
               <p className="text-xs uppercase tracking-widest text-zinc-400 font-bold mb-2">
-                Conheça os estrategistas por trás de
+                Conheça os engenheiros e designers de
               </p>
               <div className="flex items-center gap-1 text-3xl font-black text-white">
                 <span>STUDIOWEB</span>
@@ -41,32 +41,32 @@ export function FounderAuthoritySection() {
             </div>
 
             <p className="text-zinc-300 text-base leading-relaxed">
-              Não somos uma agência comum de design decorativo. Somos um time de engenheiros de software e especialistas em persuasão comercial focados em uma única métrica: <strong>o retorno financeiro do seu negócio</strong>.
+              Não entregamos sites genéricos de WordPress lentos e cheios de plugins pesados. Nossa equipe desenvolve aplicações web sob medida, utilizando as mesmas tecnologias do Vale do Silício para garantir que seu site seja o mais rápido e bonito do seu setor.
             </p>
 
             <div className="space-y-3 pt-2">
               <div className="flex items-center gap-3 text-sm text-zinc-300">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
-                <span>Mais de R$ 14.8M gerados para nossos clientes</span>
+                <span>Mais de 140 sites e landing pages desenvolvidos</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-zinc-300">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
-                <span>Metodologia direta com taxa média de conversão de 14.2%</span>
+                <span>Velocidade 100/100 testada no Google PageSpeed</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-zinc-300">
                 <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
-                <span>Atendimento exclusivo e suporte contínuo</span>
+                <span>Suporte contínuo e acompanhamento pós-entrega</span>
               </div>
             </div>
 
             <div className="pt-4">
               <a
-                href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Quero%20conversar%20com%20o%20estrategista%20da%20StudioWeb%20sobre%20meu%20projeto."
+                href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20do%20site%20da%20minha%20empresa."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-coral-gradient px-6 py-3.5 rounded-full font-bold text-white text-sm inline-flex items-center gap-2 cursor-pointer shadow-xl"
               >
-                <span>Falar com o estrategista</span>
+                <span>Falar com o Especialista</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -87,7 +87,7 @@ export function FounderAuthoritySection() {
               <div className="relative w-56 sm:w-64 h-72 sm:h-96 rounded-2xl overflow-hidden border border-white/20 shadow-2xl bg-zinc-900 shrink-0">
                 <img
                   src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
-                  alt="Ronaldo Meira - Head de Estratégia"
+                  alt="Ronaldo Meira - Head de Engenharia Web"
                   className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
@@ -99,21 +99,21 @@ export function FounderAuthoritySection() {
                   <div>
                     <h4 className="text-lg font-bold text-white">Ronaldo Meira</h4>
                     <p className="text-xs font-semibold text-coral-gradient uppercase tracking-wider">
-                      Head de Estratégia & Conversão
+                      Head de Engenharia Web & Design
                     </p>
                   </div>
                   <Award className="w-6 h-6 text-[#ff2e63]" />
                 </div>
 
                 <p className="text-xs text-zinc-300 leading-relaxed mb-4">
-                  Especialista em funis de venda de alta resposta direta e posicionamento de marca premium. Estruturas pensadas para que cada clique gere vendas imediatas no WhatsApp.
+                  Especialista em desenvolvimento web de alta performance, design de interfaces persuasivas e arquitetura moderna. Criando sites sob medida que transmitem autoridade e transformam acessos em clientes.
                 </p>
 
                 {/* Authority media seals */}
                 <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[10px] text-zinc-400 font-semibold uppercase tracking-wider">
-                  <span>Autoridade</span>
                   <span>Alta Performance</span>
-                  <span>Conversão 24/7</span>
+                  <span>Zero Templates</span>
+                  <span>100% Responsivo</span>
                 </div>
               </div>
             </div>

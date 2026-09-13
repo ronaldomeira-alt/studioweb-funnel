@@ -21,11 +21,11 @@ export function FloatingWhatsApp() {
       {/* Floating speech bubble */}
       <div className="hidden sm:flex items-center gap-2 bg-[#0e121a] border border-white/15 px-3.5 py-2 rounded-xl text-xs font-semibold text-white shadow-2xl backdrop-blur-md">
         <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-        <span>Estrategista online agora</span>
+        <span>Especialista em sites online</span>
       </div>
 
       <a
-        href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Estou%20no%20site%20da%20StudioWeb%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
+        href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20criar%20um%20site%20com%20a%20StudioWeb."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar no WhatsApp"

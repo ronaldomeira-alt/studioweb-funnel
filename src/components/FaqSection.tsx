@@ -6,24 +6,24 @@ import { ChevronDown, HelpCircle } from "lucide-react";
 export function FaqSection() {
   const faqs = [
     {
-      q: "Em quanto tempo meu funil de alta conversão fica pronto?",
-      a: "Nossa metodologia ágil entrega a estrutura completa pronta para receber tráfego entre 7 e 14 dias úteis, com design, copywriting persuasivo e integrações técnicas 100% finalizadas.",
+      q: "Em quanto tempo meu site profissional fica pronto?",
+      a: "Nosso prazo médio de entrega varia de 7 a 14 dias úteis, dependendo da complexidade do projeto (Landing Page ou Site Institucional Completo). Entregamos tudo pronto e publicado no seu domínio oficial.",
     },
     {
-      q: "Funciona para o meu nicho de mercado?",
-      a: "Sim. A arquitetura de resposta direta é aplicada com sucesso para profissionais liberais (médicos, advogados, dentistas, arquitetos), prestadores de serviços, empresas B2B e infoprodutos de ticket médio e alto.",
+      q: "Eu preciso fornecer os textos e fotos ou vocês cuidam de tudo?",
+      a: "Nossa equipe cuida de toda a redação persuasiva (copywriting), seleção de imagens e ícones profissionais de alto padrão. Você só precisa nos enviar informações básicas sobre os seus serviços e diferenciais.",
     },
     {
-      q: "Como os contatos chegam até a minha equipe?",
-      a: "O funil é integrado diretamente para abrir conversas instantâneas no WhatsApp da sua equipe ou direcionar leads já qualificados para o seu CRM, com notificação instantânea no celular.",
+      q: "O site funciona perfeitamente em celulares e tablets?",
+      a: "Sim, absolutamente. Desenvolvemos com metodologia mobile-first. Mais de 85% dos visitantes acessam por smartphones, por isso seu site será ultra-rápido, fluído e com botões de contato destacados.",
     },
     {
-      q: "Eu preciso pagar mensalidade para manter o site no ar?",
-      a: "Não cobramos mensalidades obrigatórias de manutenção da página. O código do projeto é 100% seu, hospedado em servidores de velocidade global com custo de hospedagem gratuito ou quase nulo.",
+      q: "Existe alguma mensalidade obrigatória para manter o site?",
+      a: "Não cobramos mensalidades obrigatórias de manutenção. O código é 100% seu. Configuramos em servidores de alta performance com hospedagem global gratuita ou quase nula e certificado SSL incluso.",
     },
     {
-      q: "Como faço para dar o primeiro passo?",
-      a: "Basta clicar em qualquer botão do site para iniciar uma conversa no WhatsApp. Faremos uma análise do seu modelo de negócio e apresentaremos a melhor proposta de funil para o seu momento.",
+      q: "Como faço para solicitar um orçamento para a minha empresa?",
+      a: "Basta clicar em qualquer botão desta página para conversar diretamente no WhatsApp com a nossa equipe. Faremos uma análise do seu negócio e apresentaremos a proposta ideal.",
     },
   ];
 

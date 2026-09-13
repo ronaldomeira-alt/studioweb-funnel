@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "StudioWeb X | Funis de Alta Conversão & Captação Automática de Clientes",
+  title: "StudioWeb X | Criação de Sites Profissionais de Alta Performance",
   description:
-    "Descubra a estratégia para atrair clientes de forma automática. Multiplique o faturamento da sua empresa com landing pages e funis de resposta direta de alta performance.",
+    "Desenvolvemos sites profissionais, landing pages e plataformas digitais de alta conversão. Design de nível internacional, ultra-rápido e focado em gerar clientes no WhatsApp.",
   keywords: [
-    "funil de vendas",
-    "landing page alta conversão",
-    "captação de leads",
     "criação de sites",
-    "resposta direta",
+    "desenvolvimento de sites",
+    "landing page profissional",
+    "fazer site para empresa",
+    "site institucional",
     "StudioWeb",
   ],
 };

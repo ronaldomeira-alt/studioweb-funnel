@@ -24,26 +24,26 @@ export function CtaFinalSection() {
 
         {/* High-Converting Headline */}
         <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight">
-          Pare de perder clientes para sites comuns.{" "}
+          Pare de perder clientes para a concorrência.{" "}
           <span className="text-coral-gradient block mt-1">
-            Ative seu funil StudioWeb.
+            Crie seu novo site com a StudioWeb.
           </span>
         </h2>
 
         <p className="mt-6 text-base sm:text-lg text-zinc-300 max-w-2xl mx-auto leading-relaxed">
-          Receba um diagnóstico gratuito da sua presença digital e descubra exatamente onde você está perdendo vendas hoje.
+          Receba um orçamento sem compromisso e veja como transformamos o site da sua empresa em uma máquina de captação de clientes.
         </p>
 
         {/* CTA Button */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Quero%20ativar%20meu%20funil%20de%20alta%20convers%C3%A3o%20com%20a%20StudioWeb."
+            href="https://wa.me/5583999520137?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20criar%20o%20site%20da%20minha%20empresa%20com%20a%20StudioWeb."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-coral-gradient px-9 py-5 rounded-full font-black text-white text-base sm:text-lg flex items-center gap-3 cursor-pointer shadow-2xl tracking-wide group"
           >
             <MessageCircle className="w-5 h-5 fill-white" />
-            <span>Falar com o Estrategista no WhatsApp</span>
+            <span>Solicitar Orçamento de Site no WhatsApp</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

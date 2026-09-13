@@ -11,7 +11,7 @@ interface FunnelMachineSectionProps {
 
 export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps) {
   return (
-    <section id="metodo" className="py-24 bg-[#08090c] relative overflow-hidden">
+    <section id="diferenciais" className="py-24 bg-[#08090c] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Column: 3 Reference Argument Cards + CTA Button */}
@@ -24,7 +24,7 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
                 </div>
                 <div>
                   <p className="text-zinc-200 text-sm sm:text-base leading-relaxed">
-                    Se você busca <strong className="text-white font-semibold">maximizar a captação de clientes</strong> sem desperdiçar tempo e orçamento com agências lentas ou estratégias amadoras ineficazes.
+                    Se você busca um <strong className="text-white font-semibold">site que realmente gere vendas</strong> e não seja apenas um panfleto digital esquecido na internet.
                   </p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
                 </div>
                 <div>
                   <p className="text-zinc-200 text-sm sm:text-base leading-relaxed">
-                    Se você compreende o poder de uma <strong className="text-white font-semibold">estrutura digital robusta</strong>, onde é possível mensurar cada centavo investido e ver resultados comerciais rápidos e previsíveis.
+                    Se você quer <strong className="text-white font-semibold">design padrão internacional</strong>, com carregamento instantâneo em menos de 0.5s e nota máxima no Google PageSpeed.
                   </p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
                 </div>
                 <div>
                   <p className="text-zinc-200 text-sm sm:text-base leading-relaxed">
-                    Uma máquina que <strong className="text-white font-semibold">trabalha para você 24 horas por dia, 7 dias por semana</strong>, para você não depender exclusivamente de indicação e poder focar em liderar seu negócio.
+                    Uma presença digital que <strong className="text-white font-semibold">valoriza seu preço perante os clientes</strong>, transmitindo confiança para fechar contratos com tickets mais altos.
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Play className="w-3.5 h-3.5 fill-white text-white ml-0.5" />
                 </div>
-                <span>Quero ver a demonstração</span>
+                <span>Quero um site desse padrão</span>
               </button>
             </div>
           </div>
@@ -90,7 +90,7 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
               className="absolute -top-4 right-8 z-30 badge-lead-lime px-4 py-2 rounded-xl font-black text-sm flex items-center gap-2 shadow-2xl"
             >
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-              <span>+R$ 1.850,00</span>
+              <span>Site 100% Responsivo</span>
             </motion.div>
 
             {/* Floating Live Badge Center Left: "+R$" */}
@@ -101,7 +101,7 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
               className="absolute top-1/3 -left-4 z-30 badge-lead-lime px-3.5 py-1.5 rounded-xl font-black text-sm flex items-center gap-2 shadow-2xl"
             >
               <TrendingUp className="w-4 h-4 text-emerald-400" />
-              <span>+R$ 9.400 / dia</span>
+              <span>⚡ 0.4s Carregamento</span>
             </motion.div>
 
             {/* Floating Rocket icon badge */}
@@ -126,11 +126,11 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
                     <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
                   </div>
                   <div className="text-[10px] text-zinc-400 font-mono bg-black/40 px-3 py-0.5 rounded border border-white/5">
-                    studioweb.app/dashboard/leads
+                    suaempresa.com.br
                   </div>
                   <div className="text-[10px] text-emerald-400 font-bold flex items-center gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                    AO VIVO
+                    SITE NO AR
                   </div>
                 </div>
 
@@ -139,33 +139,33 @@ export function FunnelMachineSection({ onOpenVideo }: FunnelMachineSectionProps)
                   {/* Stats Bar */}
                   <div className="grid grid-cols-3 gap-2">
                     <div className="p-2.5 rounded-lg bg-white/[0.04] border border-white/10">
-                      <div className="text-[10px] text-zinc-400 uppercase">Leads Hoje</div>
-                      <div className="text-base sm:text-lg font-black text-white">48</div>
-                      <div className="text-[9px] text-emerald-400">+28% vs ontem</div>
+                      <div className="text-[10px] text-zinc-400 uppercase">Velocidade</div>
+                      <div className="text-base sm:text-lg font-black text-emerald-400">100/100</div>
+                      <div className="text-[9px] text-emerald-300">Google PageSpeed</div>
                     </div>
                     <div className="p-2.5 rounded-lg bg-white/[0.04] border border-white/10">
                       <div className="text-[10px] text-zinc-400 uppercase">Conversão</div>
-                      <div className="text-base sm:text-lg font-black text-emerald-400">14.2%</div>
-                      <div className="text-[9px] text-zinc-400">Padrão Mercado: 2%</div>
+                      <div className="text-base sm:text-lg font-black text-white">14.2%</div>
+                      <div className="text-[9px] text-zinc-400">WhatsApp Direto</div>
                     </div>
                     <div className="p-2.5 rounded-lg bg-white/[0.04] border border-white/10">
-                      <div className="text-[10px] text-zinc-400 uppercase">Faturamento</div>
-                      <div className="text-base sm:text-lg font-black text-white">R$ 84.500</div>
-                      <div className="text-[9px] text-coral-gradient font-bold">+R$ 18.2k hoje</div>
+                      <div className="text-[10px] text-zinc-400 uppercase">Tecnologia</div>
+                      <div className="text-base sm:text-lg font-black text-white">Next.js</div>
+                      <div className="text-[9px] text-coral-gradient font-bold">Ultra Moderno</div>
                     </div>
                   </div>
 
                   {/* Real-time incoming leads table */}
                   <div className="space-y-2">
                     <div className="text-[11px] font-bold text-zinc-300 flex items-center justify-between">
-                      <span>Últimos Contatos Qualificados</span>
-                      <span className="text-emerald-400 text-[10px]">Notificação instantânea</span>
+                      <span>Projetos Recentemente Entregues</span>
+                      <span className="text-emerald-400 text-[10px]">100% no ar</span>
                     </div>
 
                     {[
-                      { nome: "Dra. Camila Vasconcelos", ramo: "Clínica Dermatológica", valor: "R$ 4.200", tempo: "Há 2 min" },
-                      { nome: "Dr. Rodrigo Silveira", ramo: "Advocacia Empresarial", valor: "R$ 6.500", tempo: "Há 7 min" },
-                      { nome: "Eng. Marcos Pontes", ramo: "Construtora Alto Padrão", valor: "R$ 12.000", tempo: "Há 14 min" },
+                      { nome: "Clínica Dermato Prime", ramo: "Site Institucional + Agendamento", valor: "Entregue em 8 dias", tempo: "Ver Site" },
+                      { nome: "Advocacia Silveira & Associados", ramo: "Landing Page de Alta Conversão", valor: "Entregue em 6 dias", tempo: "Ver Site" },
+                      { nome: "Artefacto Engenharia", ramo: "Catálogo de Imóveis & Portfólio", valor: "Entregue em 11 dias", tempo: "Ver Site" },
                     ].map((lead, idx) => (
                       <div
                         key={idx}

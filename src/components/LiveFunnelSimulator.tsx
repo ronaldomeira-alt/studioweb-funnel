@@ -25,13 +25,13 @@ export function LiveFunnelSimulator() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#ff2e63]/10 border border-[#ff2e63]/30 text-xs font-bold text-[#ff4b6e] uppercase tracking-wider mb-4">
             <Calculator className="w-3.5 h-3.5" />
-            Simulador de Impacto Financeiro
+            Simulador de Retorno do Seu Novo Site
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Quanto sua empresa deixa na mesa sem um funil de alta conversão?
+            Quanto sua empresa deixa de vender com um site desatualizado?
           </h2>
           <p className="mt-3 text-zinc-400 text-sm sm:text-base">
-            Mova os controles abaixo para calcular o retorno estimado no seu modelo de negócio.
+            Mova os controles abaixo para calcular o retorno estimado que um novo site profissional trará para o seu faturamento.
           </p>
         </div>
 
@@ -44,10 +44,10 @@ export function LiveFunnelSimulator() {
               <div>
                 <div className="flex justify-between items-center mb-2">
                   <label className="text-sm font-semibold text-zinc-200">
-                    Visitantes / Cliques por mês:
+                    Visitantes / Acessos mensais no site:
                   </label>
                   <span className="text-base font-black text-white px-3 py-1 bg-white/10 rounded-lg">
-                    {traffic.toLocaleString("pt-BR")} pessoas
+                    {traffic.toLocaleString("pt-BR")} acessos
                   </span>
                 </div>
                 <input
@@ -94,12 +94,12 @@ export function LiveFunnelSimulator() {
 
               <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-2 text-xs text-zinc-400">
                 <div className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-emerald-400" />
-                  <span>Taxa padrão de páginas convencionais: ~1.5%</span>
+                  <Check className="w-4 h-4 text-zinc-500" />
+                  <span>Site amador: conversão média de apenas ~1.5%</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-[#ff2e63]" />
-                  <span className="text-zinc-200 font-semibold">Taxa média da arquitetura StudioWeb: 11.8%</span>
+                  <Check className="w-4 h-4 text-emerald-400" />
+                  <span className="text-zinc-200 font-semibold">Novo Site StudioWeb: conversão média de 11.8%</span>
                 </div>
               </div>
             </div>
@@ -138,12 +138,12 @@ export function LiveFunnelSimulator() {
 
               <div className="mt-8 pt-6 border-t border-white/10">
                 <a
-                  href={`https://wa.me/5583999520137?text=Ol%C3%A1!%20Fiz%20a%20simula%C3%A7%C3%A3o%20no%20site%20da%20StudioWeb%20com%20${traffic}%20visitantes%20e%20ticket%20de%20R$%20${ticket}.%20Quero%20destravar%20esse%20potencial%20no%20meu%20neg%C3%B3cio.`}
+                  href={`https://wa.me/5583999520137?text=Ol%C3%A1!%20Fiz%20a%20simula%C3%A7%C3%A3o%20no%20site%20da%20StudioWeb%20para%20criar%20um%20novo%20site%20com%20${traffic}%20acessos%20mensais.%20Quero%20um%20or%C3%A7amento.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-coral-gradient w-full py-4 rounded-full font-bold text-white text-sm sm:text-base flex items-center justify-center gap-2 cursor-pointer shadow-xl"
                 >
-                  <span>Destravar Este Faturamento Agora</span>
+                  <span>Quero um Orçamento para Meu Site</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
